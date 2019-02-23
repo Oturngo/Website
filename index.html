@@ -5,8 +5,189 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>My Website</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu'>
+  <link rel='stylesheet' href='css/style.css'>
+
 </head>
 <body>
-  <h1>Hello!</h1>
+  <nav class="navbar fixed-top navbar-top navbar-expand-md navbar-dark">
+      <div class="container">
+        <div class="navbar-header"><img class="icon" src="https://lh3.googleusercontent.com/RsCykGDWrEsKVIUjqIcn11TY0CyQtRhlc-7xRJ1KYNPWRvwupqqIfDRQYKM87XRytte6VvlSphMOuyYRE2C0hHyPtxI16yJQ_zwWh9UjORf0YIo2sh1uszd1x7Ln-G2ZneGVJmbmmK-JSEvaUNDFzmRNiX4GiMRE8fY9FdGu46Bq6bYXdcgxQmd67T8TC0ng8ce5szTDnucChvPhmxuiAdJF6cLYSYglRWCUpRFK8l79Py0XxDkI08nhZxiNz5NdJ54-eTpHltjfFIPMgXJUEAEy39pLNepE8z3prW2WuJbvFg6ZgFjSImx2sx3__3QDf6c71TOq7CbxJbepfbbqw9QqyQp61LE3WacKY5Gu3sECQdXFwUx1Aa6f0sAtf8T_BYwI1LK7U90qVlQ3jJHGJxSbGYs0IxfWZ3QA77K02OgWUkXH9P1ImI_oFPLPPkqipB1ppBF3fFkVkS7BZWeM2lk6xj3i4ftjNfu_CnF_g1ZFXvQGaFi37wiAtv0fgxcD8SRcUjSSDndHhLDvDtApRYUN2VGJpumZL7Fjfjtaqw7_1C8FUvV5-AiXs0O154fRuhHrthRySf1z-FFEfHcYDSBQKOXTN2Q5P9sR8DXgqc6pj7rvEIO40QUs08ZhqC4uxzpyjH8OL47V62AzQOLNLoDQ8y-Nkg=w261-h283-no"/></div>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mynavbars" aria-controls="mynavbars" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="navbar-collapse collapse" id="mynavbars">
+          <div class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#section_about">簡介</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section_exp">經歷</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section_skills">技能</a></li>
+            <li class="nav-item"><a class="nav-link" href="#section_works">作品</a></li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <header class="jumbotron"></header>
+    <section id="section_about">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 title">
+            <h3>簡介</h3>
+          </div>
+          <div class="col-sm-4">
+            <div class="pic"></div>
+          </div>
+          <div class="col-sm-8">
+            <div class="name">
+              <h4>劉嘉惟 Martin</h4>
+            </div>
+            <div class="phone">
+              <div class="icon"><i class="fa fa-mobile"> </i></div><span class="text">0923-577375</span>
+            </div>
+            <div class="mail">
+              <div class="icon"><i class="fa fa-envelope"> </i></div><span class="text">oturngo@gmail.com</span>
+            </div>
+            <div class="links">
+              <div class="icon linkedin"><a class="link" href="https://www.linkedin.com/in/jia-wei-martin-liu-31400a165"><i class="fa fa-linkedin"></i></a></div>
+              <div class="icon codepen"><a class="link" href="https://codepen.io/dashboard/"><i class="fa fa-codepen"></i></a></div>
+              <div class="icon github"><a class="link" href="https://github.com/Oturngo"><i class="fa fa-github"></i></a></div>
+            </div>
+            <div class="content">
+              <p>喜歡思考去嘗試解決各種網頁與程式上的問題，目前正在加深對於前端框架的熟練度。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section_exp">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 title">
+            <h3>經歷</h3>
+            <hr/>
+          </div>
+          <div class="col-sm-12 exp">
+            <div class="job">
+              <h5>軟體工程師</h5>
+            </div>
+            <div class="company">
+              <h6>亞旭電腦股份有限公司</h6>
+            </div><span class="date">2016/5 - 在職中</span>
+            <div class="item">
+              <ul>
+                <li>維護Cable modem 產品軟體相關功能(WiFi, Residential Gateway 及網頁)</li>
+                <li>網頁與 MIB(SNMP) 客製化</li>
+                <li>撰寫並維護 Daily build script</li>
+                <li>網頁讀取速度優化</li>
+                <li>產品網頁 RWD 設計</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-12 exp">
+            <div class="job">
+              <h5>軟體工程師</h5>
+            </div>
+            <div class="company">
+              <h6>揚興股份有限公司</h6>
+            </div><span class="date">2014/12 - 2016/03</span>
+            <div class="item">
+              <ul>
+                <li>撰寫 Set-Top Box 圖形介面與功能，並提供客製化功能</li>
+                <li>維護 Set-Top Box 產品軟體及相關功能</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section_skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 title">
+            <h3>技能</h3>
+            <hr/>
+          </div>
+          <div class="col-sm-4 language">
+            <ul>
+              <li>HTML/PUG</li>
+              <li>CSS/SASS</li>
+              <li>Javascript/JQuery</li>
+              <li>C++</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <div class="type">
+              <h6>視覺設計</h6>
+            </div>
+            <ul>
+              <li>RWD</li>
+              <li>apexchart.js</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <div class="type">
+              <h6>框架</h6>
+            </div>
+            <ul>
+              <li>Bootstrap</li>
+              <li>Vue.js</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <div class="type">
+              <h6>版本控管</h6>
+            </div>
+            <ul>
+              <li>Git</li>
+              <li>Svn</li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <div class="type">
+              <h6>腳本</h6>
+            </div>
+            <ul>
+              <li>Shell script</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="section_works">
+      <div class="container">
+        <div class="row d-flex justify-content-around">
+          <div class="col-sm-12 title">
+            <h3>作品</h3>
+            <hr/>
+          </div>
+          <div class="col-sm-5 pic1">
+            <div class="desc">
+              <h4>個人簡歷網頁</h4>
+              <p>練習使用 Pup 及 Sass 進行練習</p>
+            </div>
+          </div>
+          <div class="col-sm-5 pic2">
+            <div class="desc">
+              <h4>購買清單</h4>
+              <p>使用 JQuery 透過 ajax 取得後端資料，再畫出購買清單的畫面 (課程作品)</p>
+            </div>
+          </div>
+          <div class="col-sm-5 pic3">
+            <div class="desc">
+              <h4>茶啡茶</h4>
+              <p>使用 bootstrap 來練習建立品牌網頁，並加入 skrollr 使卷軸拉動時會有動態效果 (課程作品)</p>
+            </div>
+          </div>
+          <div class="col-sm-5 pic4">
+            <div class="desc">
+              <h4>動態天氣預報</h4>
+              <p>使用 SVG 結合 animate 和 transition 做出動態天氣預報 (課程作品)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <div class="footer-copyright text-center py-3">© 2019 Copyright by Martin </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
