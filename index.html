@@ -14,7 +14,11 @@
 <body>
   <nav class="navbar fixed-top navbar-top navbar-expand-md navbar-dark">
       <div class="container">
-        <div class="navbar-header"><img class="icon" src="https://lh3.googleusercontent.com/RsCykGDWrEsKVIUjqIcn11TY0CyQtRhlc-7xRJ1KYNPWRvwupqqIfDRQYKM87XRytte6VvlSphMOuyYRE2C0hHyPtxI16yJQ_zwWh9UjORf0YIo2sh1uszd1x7Ln-G2ZneGVJmbmmK-JSEvaUNDFzmRNiX4GiMRE8fY9FdGu46Bq6bYXdcgxQmd67T8TC0ng8ce5szTDnucChvPhmxuiAdJF6cLYSYglRWCUpRFK8l79Py0XxDkI08nhZxiNz5NdJ54-eTpHltjfFIPMgXJUEAEy39pLNepE8z3prW2WuJbvFg6ZgFjSImx2sx3__3QDf6c71TOq7CbxJbepfbbqw9QqyQp61LE3WacKY5Gu3sECQdXFwUx1Aa6f0sAtf8T_BYwI1LK7U90qVlQ3jJHGJxSbGYs0IxfWZ3QA77K02OgWUkXH9P1ImI_oFPLPPkqipB1ppBF3fFkVkS7BZWeM2lk6xj3i4ftjNfu_CnF_g1ZFXvQGaFi37wiAtv0fgxcD8SRcUjSSDndHhLDvDtApRYUN2VGJpumZL7Fjfjtaqw7_1C8FUvV5-AiXs0O154fRuhHrthRySf1z-FFEfHcYDSBQKOXTN2Q5P9sR8DXgqc6pj7rvEIO40QUs08ZhqC4uxzpyjH8OL47V62AzQOLNLoDQ8y-Nkg=w261-h283-no"/></div>
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#header_index">  
+            <img class="icon" src="img/pic1.png"/>
+          </a>
+        </div>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#mynavbars" aria-controls="mynavbars" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="navbar-collapse collapse" id="mynavbars">
           <div class="navbar-nav ml-auto">
@@ -26,7 +30,7 @@
         </div>
       </div>
     </nav>
-    <header class="jumbotron"></header>
+    <header class="jumbotron" id="header_index"></header>
     <section id="section_about">
       <div class="container">
         <div class="row">
@@ -47,9 +51,9 @@
               <div class="icon"><i class="fa fa-envelope"> </i></div><span class="text">oturngo@gmail.com</span>
             </div>
             <div class="links">
-              <div class="icon linkedin"><a class="link" href="https://www.linkedin.com/in/jia-wei-martin-liu-31400a165"><i class="fa fa-linkedin"></i></a></div>
-              <div class="icon codepen"><a class="link" href="https://codepen.io/dashboard/"><i class="fa fa-codepen"></i></a></div>
-              <div class="icon github"><a class="link" href="https://github.com/Oturngo"><i class="fa fa-github"></i></a></div>
+              <div class="icon linkedin"><a class="link" target="_blank" href="https://www.linkedin.com/in/jia-wei-martin-liu-31400a165"><i class="fa fa-linkedin"></i></a></div>
+              <div class="icon codepen"><a class="link" target="_blank" href="https://codepen.io/dashboard/"><i class="fa fa-codepen"></i></a></div>
+              <div class="icon github"><a class="link" target="_blank" href="https://github.com/Oturngo"><i class="fa fa-github"></i></a></div>
             </div>
             <div class="content">
               <p>喜歡思考去嘗試解決各種網頁與程式上的問題，目前正在加深對於前端框架的熟練度。</p>
@@ -159,25 +163,25 @@
             <h3>作品</h3>
             <hr/>
           </div>
-          <div class="col-sm-5 pic1">
+          <div class="col-sm-5 pic1" data-url="https://codepen.io/oturngo/full/vQYpgx">
             <div class="desc">
               <h4>個人簡歷網頁</h4>
               <p>練習使用 Pup 及 Sass 進行練習</p>
             </div>
           </div>
-          <div class="col-sm-5 pic2">
+          <div class="col-sm-5 pic2" data-url="https://codepen.io/oturngo/full/ebdXVz">
             <div class="desc">
               <h4>購買清單</h4>
               <p>使用 JQuery 透過 ajax 取得後端資料，再畫出購買清單的畫面 (課程作品)</p>
             </div>
           </div>
-          <div class="col-sm-5 pic3">
+          <div class="col-sm-5 pic3" data-url="https://codepen.io/oturngo/full/maNRpJ">
             <div class="desc">
               <h4>茶啡茶</h4>
               <p>使用 bootstrap 來練習建立品牌網頁，並加入 skrollr 使卷軸拉動時會有動態效果 (課程作品)</p>
             </div>
           </div>
-          <div class="col-sm-5 pic4">
+          <div class="col-sm-5 pic4" data-url="https://codepen.io/oturngo/full/vQJpvE">
             <div class="desc">
               <h4>動態天氣預報</h4>
               <p>使用 SVG 結合 animate 和 transition 做出動態天氣預報 (課程作品)</p>
@@ -187,7 +191,8 @@
       </div>
     </section>
   <div class="footer-copyright text-center py-3">© 2019 Copyright by Martin </div>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
